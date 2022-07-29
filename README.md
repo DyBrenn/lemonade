@@ -37,6 +37,8 @@ mutation
 
 First setp you will want to do is navigate to the react project. Run this command from the root folder. `cd react-graphql-client`
 
+I am using node v16.16.0
+
 To setup frontend react project just install packages using either `npm i` or `yarn install`
 
 To run the react project run `npm run start` or `yarn start`
