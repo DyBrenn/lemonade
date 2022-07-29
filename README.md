@@ -43,4 +43,6 @@ To setup frontend react project just install packages using either `npm i` or `y
 
 To run the react project run `npm run start` or `yarn start`
 
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000 to view it in the browser. Once you can see the page, click the big blue button that says `Populate database with drinks` which will trigger a mutation to populate 4 drinks into the database to make the UI easier to test and navigate.
+
+Thanks for looking at my project I hope you like it :)
