@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dbrennan/work/code/lemonade/lemonade.csproj": {}
+  },
+  "projects": {
+    "/Users/dbrennan/work/code/lemonade/lemonade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dbrennan/work/code/lemonade/lemonade.csproj",
+        "projectName": "lemonade",
+        "projectPath": "/Users/dbrennan/work/code/lemonade/lemonade.csproj",
+        "packagesPath": "/Users/dbrennan/.nuget/packages/",
+        "outputPath": "/Users/dbrennan/work/code/lemonade/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dbrennan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.MicrosoftDI": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "GraphQL.Server.Authorization.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.Server.Ui.Altair": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "GraphQL.SystemTextJson": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-rc.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-rc.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
